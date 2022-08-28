@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    border: 2px solid #ddd;
+    margin-top: 100px;
+    /* padding: 40px; */
+}
+.container div{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+.container .div-1 {
+   
+    transform: translate(0);
+ 
+}
+.container .div-1:hover{
+    transform: translate(-34px, 43px);
+ 
+}
+.container .div-2{
+transform: rotate(0);
+}
+.container .div-2:hover{
+    transform: rotate(65deg);
+}
+.container .div-3 {
+    transform: skew(0);
+}
+
+.container .div-3:hover{
+    transform: skew(1deg, 29deg);
+}
+.container .div-4{
+ transform: scale(1);
+}
+.container .div-4:hover{
+    transform: scale(1.4, 1.4);
+}
+
+  /* Container -2  */
+  .container-2{
+    width: 1000px;
+    margin: auto;
+    border: 2px solid #ddd;
+    margin-top: 100px;
+  
+}
+
+.container-2 div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 8, 0);
+    margin: 20px;
+    display: inline-block;
+    transition: .5s;
+}
+  
+.container-2 .div-1{
+    transform: translate(-34px, 43px);
+ 
+}
+
+.container-2 .div-2{
+    transform: rotate(65deg);
+}
+.container-2 .div-3{
+    transform: skew(1deg, 29deg);
+}
+
+.container-2 .div-4{
+    transform: scale(1.4, 1.4);
+}
+
+.img-hover{
+    width: 400px;
+    height: 395px;
+    margin: auto;
+   text-align: center;
+   border: 2px solid red;
+   padding: 40px;
+   box-shadow: 0 0 10px black;
+   background-color: #ddd;
+}
+.img-hover img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .5s;
+  
+}
+
+.img-hover img:hover{
+    transform: scale(1.2) rotate(360deg);
+}
